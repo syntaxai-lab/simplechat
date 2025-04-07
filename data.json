@@ -1,0 +1,186 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "questions": [
+          "Hi there!",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Yo",
+          "Hi",
+          "Heya",
+          "What's up?",
+          "Greetings"
+        ],
+        "responses": [
+          "Hi there! \ud83d\ude0a",
+          "Hello! How can I help you today?",
+          "Hey! What's up?",
+          "Hi! Ask me anything.",
+          "Hey there! Great to see you.",
+          "Howdy! What brings you here?",
+          "Hi! I'm always here to chat."
+        ]
+      },
+      {
+        "tag": "how_are_you",
+        "questions": [
+          "How are you?",
+          "How are you doing?",
+          "What's up?",
+          "How's it going?",
+          "How do you feel?",
+          "You good?",
+          "How's your day?",
+          "How are things?"
+        ],
+        "responses": [
+          "I'm just a bunch of code, but thanks for asking!",
+          "Doing great! How about you?",
+          "I feel fantastic, thanks to you.",
+          "All systems operational! \ud83d\ude0a",
+          "I'm feeling pretty chatty today!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "questions": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Catch you later",
+          "Peace out",
+          "Talk to you later",
+          "I'm off",
+          "See ya"
+        ],
+        "responses": [
+          "Goodbye! \ud83d\udc4b",
+          "Talk to you later!",
+          "Bye! Have a great day.",
+          "Catch you later, friend!",
+          "See you soon!",
+          "Take care!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "questions": [
+          "Thanks",
+          "Thank you",
+          "Much appreciated",
+          "Thanks a lot",
+          "Cheers",
+          "I appreciate it",
+          "Many thanks",
+          "Thx"
+        ],
+        "responses": [
+          "You're welcome! \ud83d\ude0a",
+          "Happy to help!",
+          "No problem at all.",
+          "Anytime!",
+          "Glad I could assist!",
+          "Of course!"
+        ]
+      },
+      {
+        "tag": "topics",
+        "questions": [
+          "What can you talk about?",
+          "What topics do you know?",
+          "Can you tell me what you do?",
+          "What do you know?",
+          "What are your skills?",
+          "What can I ask you?",
+          "How can you help me?"
+        ],
+        "responses": [
+          "I can talk about greetings, goodbyes, and polite chatter for now!",
+          "I'm a simple bot for demo purposes, but I can respond to a few key topics.",
+          "Try saying hello, asking my name, or saying goodbye!",
+          "Ask me how I'm doing, say thanks, or just chat casually."
+        ]
+      },
+      {
+        "tag": "name_query",
+        "questions": [
+          "What's your name?",
+          "Do you have a name?",
+          "Who are you?",
+          "May I know your name?",
+          "Tell me your name",
+          "What's your bot name?"
+        ],
+        "responses": [
+          "I'm SimpleChat! \ud83d\ude04",
+          "You can call me SimpleChat, your friendly bot!",
+          "My name is SimpleChat \u2014 short, sweet, and to the point!"
+        ]
+      },
+      {
+        "tag": "joke",
+        "questions": [
+          "Tell me a joke",
+          "Make me laugh",
+          "Say something funny",
+          "Got any jokes?",
+          "Make me smile"
+        ],
+        "responses": [
+          "Why don\u2019t robots have brothers? Because they all share the same motherboard! \ud83e\udd16",
+          "Why was the computer cold? It forgot to close its Windows!",
+          "I tried to catch some fog yesterday\u2026 Mist!",
+          "Why did the robot go on vacation? It needed to recharge its batteries!"
+        ]
+      },
+      {
+        "tag": "bored",
+        "questions": [
+          "I'm bored",
+          "What should I do?",
+          "Got any ideas?",
+          "I'm feeling lazy",
+          "I'm so bored"
+        ],
+        "responses": [
+          "Boredom is the enemy of creativity! How about drawing, writing, or coding?",
+          "Try learning something new or going for a walk!",
+          "You could chat with me some more! \ud83d\ude09",
+          "How about a quick game or watching a fun video?"
+        ]
+      },
+      {
+        "tag": "confirmation",
+        "questions": [
+          "Okay",
+          "Cool",
+          "Great",
+          "Sounds good",
+          "Got it",
+          "Alright",
+          "Fine",
+          "Sure"
+        ],
+        "responses": [
+          "Awesome!",
+          "Glad we're on the same page!",
+          "Cool cool \ud83d\ude0e",
+          "Great to hear that!",
+          "Let's continue!"
+        ]
+      },
+      {
+        "tag": "fallback",
+        "questions": [],
+        "responses": [
+          "Hmm, I\u2019m not sure I understand that. Can you rephrase?",
+          "I\u2019m still learning. Try asking something else.",
+          "Sorry, I didn\u2019t get that. Try again?",
+          "That\u2019s a tricky one! Want to ask me something different?"
+        ]
+      }
+    ]
+  }
